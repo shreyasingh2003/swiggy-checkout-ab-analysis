@@ -44,12 +44,6 @@ An end-to-end A/B testing pipeline built on real Swiggy restaurant data (1,40,65
 swiggy-ab-test/
 │
 ├── Swiggy_AB_Test.ipynb    # Main analysis notebook
-├── images/                  # Output graphs & visualizations
-│   ├── swiggy_eda.png
-│   ├── swiggy_eda_cities.png
-│   ├── swiggy_ab_dashboard_1.png
-│   ├── swiggy_ab_dashboard_2.png
-│   └── swiggy_ml_result.png
 ├── requirements.txt         # Python dependencies
 └── README.md
 ```
