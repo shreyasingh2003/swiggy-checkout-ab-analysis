@@ -37,12 +37,37 @@ An end-to-end A/B testing pipeline built on real Swiggy restaurant data (1,40,65
 
 ---
 
+## 📈 Visualizations
+
+### 1. Exploratory Data Analysis — Rating & Price Distribution
+![EDA Rating & Price](images/swiggy_eda.png)
+
+### 2. EDA — Top Cities & Cuisines
+![EDA Cities & Cuisines](images/swiggy_eda_cities.png)
+
+### 3. A/B Test Results Dashboard — Conversion Overview
+![AB Dashboard Part 1](images/swiggy_ab_dashboard_1.png)
+
+### 4. A/B Test Results Dashboard — Segment Analysis
+![AB Dashboard Part 2](images/swiggy_ab_dashboard_2.png)
+
+### 5. ML Model — Feature Importance & ROC Curve
+![ML Results](images/swiggy_ml_result.png)
+
+---
+
 ## 🗂️ Project Structure
 
 ```
 swiggy-ab-test/
 │
 ├── Swiggy_AB_Test.ipynb    # Main analysis notebook
+├── images/                  # Output graphs & visualizations
+│   ├── swiggy_eda.png
+│   ├── swiggy_eda_cities.png
+│   ├── swiggy_ab_dashboard_1.png
+│   ├── swiggy_ab_dashboard_2.png
+│   └── swiggy_ml_result.png
 ├── requirements.txt         # Python dependencies
 └── README.md
 ```
